@@ -38,7 +38,7 @@ The big benefit is speed and efficiency. If you're a business dealing with tons 
 2. Configure Elasticsearch in `application.properties`:
    ```properties
    spring.application.name=RapidSearchEngine
-   spring.data.elasticsearch.cluster-name=FastDataSearchCluster
+   spring.data.elasticsearch.cluster-name=RapidSearchEngineCluster
    spring.data.elasticsearch.cluster-nodes=localhost:9200
    spring.data.elasticsearch.repositories.enabled=true
 
